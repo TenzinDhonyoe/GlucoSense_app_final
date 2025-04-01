@@ -28,6 +28,19 @@ source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Model Training
+
+Before running the app, you need to train the model:
+
+1. Download the diabetes prediction dataset
+2. Run the training script:
+```bash
+python train_model.py
+```
+This will create two files:
+- `hbA1c_model.pkl`: The trained model
+- `features.pkl`: The list of features used by the model
+
 ## Usage
 
 1. Run the Streamlit app:
