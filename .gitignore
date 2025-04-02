@@ -32,9 +32,10 @@ ENV/
 *.swo
 
 # Model files
-*.pkl
 *.h5
 *.model
+*.pkl
+!hbA1c_model.pkl
 
 # OS
 .DS_Store
